@@ -32,7 +32,7 @@ return [==[
         this.editor.removeLineClass(this.last_line_handle, "background", "has_error");
       }
       opts = $.param({
-        lang: "moonscript"
+        lang: "lua"
       });
       this.set_status("loading", "Loading...");
       return $.post("?" + opts, {
