@@ -1,0 +1,7 @@
+<!-- views/listaView.etlua -->
+<h1>Una Lista</h1>
+<ol>
+	<% for i , thing in pairs(unalista) do %>
+		<li><%= thing %></li>
+	<% end %>
+</ol>

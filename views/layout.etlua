@@ -1,0 +1,16 @@
+<!-- views/layout.etlua -->
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title><%= page_title or "My Lua App" %></title>
+</head>
+
+<body>
+	<h1>Greetings</h1>
+	<!-- Special etlua function -->
+	<% content_for("inner") %>
+</body>
+
+</html>
+
